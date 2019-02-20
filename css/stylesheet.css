@@ -360,7 +360,6 @@ a.academy:hover {
     opacity: 0;
     visibility: hidden;
     transition: opacity .35s, visibility .35s, height .35s;
-    overflow: hidden;
   }
   .overlay.open {
     opacity: .95;
