@@ -411,39 +411,14 @@
                   
                  </section>
 
-                 <section class="maps wrap">
-                      <style>
-                        /* Set the size of the div element that contains the map */
-                        #map {
-                          height: 500px;  /* The height is 400 pixels */
-                          width: 100%;  /* The width is the width of the web page */
-                        }
-                      </style>
-                      <h3>My Google Maps Demo</h3>
-                      <!--The div element for the map -->
-                      <div id="map"></div>
-                  
-                      <script>
-                  // Initialize and add the map
-                  function initMap() {
-                    // The location of Uluru
-                    var uluru = {lat: -25.344, lng: 131.036};
-                    // The map, centered at Uluru
-                    var map = new google.maps.Map(
-                        document.getElementById('map'), {zoom: 4, center: uluru});
-                    // The marker, positioned at Uluru
-                    var marker = new google.maps.Marker({position: uluru, map: map});
-                  }
-                      </script>
-                      <!--Load the API from the specified URL
-                      * The async attribute allows the browser to render the page while the API loads
-                      * The key parameter will contain your own API key (which is not needed for this tutorial)
-                      * The callback parameter executes the initMap() function
-                      -->
-                      <script async defer
-                      src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
-                      </script>
-                  </section>    
+            
+
+                  <div class=" wrap">
+                      <div class="gmap_canvas">
+                        <iframe width="100%" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=epicenter%20oslo&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                      </div>
+                      <style>.mapouter{text-align:right;height:500px;width:100%;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:100%;}</style>
+                      </div>       
      
 
        <!-- Arrow-heading "Newsletter"--->     
@@ -457,7 +432,7 @@
       
         <!-- NEWSLETTER---> 
  <section class="newsletter wrap">
-    <img class="newsletter-img" src="../images/newsletter.svg" alt="newsletter illustration sign up" width="255px">
+    <img class="newsletter-img" src="../../images/newsletter.svg" alt="newsletter illustration sign up" width="255px">
     <div class="newsletter-content">
         <h2>Sign up for our Newsletter</h2>
        <h4>Recieve the latest news about our products, services and events</h4>
@@ -485,8 +460,8 @@ data-reactid=".hbspt-forms-4">
     <iframe name="target_iframe_b46283cb-637c-46a5-8b9c-4cb06bc46bd3" style="display:none;" data-reactid=".hbspt-forms-4.8"></iframe>
 </form>
 <div class="social-media-icons">
-    <a href="https://www.facebook.com/igniteprocurement/" target="_blank"><img class="icon" src="../images/icons/facebook.svg" alt="Follow us on facebook" width="40px"></a>
-    <a href="https://www.linkedin.com/company/ignite-procurement/" target="_blank"><img class="icon" src="../images/icons/linkedin.svg" alt="Follow us on linkedin" width="40px"></a>
+    <a href="https://www.facebook.com/igniteprocurement/" target="_blank"><img class="icon" src="../../images/icons/facebook.svg" alt="Follow us on facebook" width="40px"></a>
+    <a href="https://www.linkedin.com/company/ignite-procurement/" target="_blank"><img class="icon" src="../../images/icons/linkedin.svg" alt="Follow us on linkedin" width="40px"></a>
   </div> 
 </section>
 
