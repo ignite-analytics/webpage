@@ -425,7 +425,7 @@ a.academy:hover {
     color: #FFF;
     text-decoration: none;
     padding: .5em;
-    overflow: scroll;
+   
   }
   .overlay ul li a:hover:after, .overlay ul li a:focus:after, .overlay ul li a:active:after {
     width: 100%;
