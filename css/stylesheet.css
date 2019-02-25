@@ -691,8 +691,9 @@ h4.service_title {
 }
 
 
-.hs-input {
+input.hs-input {
     height: 50px;
+    border: 2px solid #c4c4c4;
 }
 
 
