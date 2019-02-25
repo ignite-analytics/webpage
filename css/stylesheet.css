@@ -695,6 +695,11 @@ input.hs-input {
     height: 50px;
     border: 2px solid #c4c4c4;
 }
+input.hs-button.primary.large {
+    min-width: 250px;
+    min-height: 50px;
+    border-radius: 25px;
+}
 
 
 
